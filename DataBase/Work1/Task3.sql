@@ -1,5 +1,5 @@
---Показать поля ProductDescriptionID, [Description] из таблицы Production.ProductDescription, 
---для которых идентификатор (ProductDescriptionID) больше 3 и меньше 122. Использовать оператор BETWEEN.
+--РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ ProductDescriptionID, [Description] РёР· С‚Р°Р±Р»РёС†С‹ Production.ProductDescription, 
+--РґР»СЏ РєРѕС‚РѕСЂС‹С… РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ (ProductDescriptionID) Р±РѕР»СЊС€Рµ 3 Рё РјРµРЅСЊС€Рµ 122. РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕРїРµСЂР°С‚РѕСЂ BETWEEN.
 SELECT ProductDescriptionID, [Description]
 FROM Production.ProductDescription
 WHERE ProductDescriptionID BETWEEN 3 AND 122;

@@ -1,5 +1,5 @@
---Из таблицы HumanResources.Department показать поля DepartmentID, [Name] и GroupName. Показать только значения поля GroupName 
---из списка ('Manufacturing','Quality Assurance','Research and Development'). Использовать оператор IN.
+--РР· С‚Р°Р±Р»РёС†С‹ HumanResources.Department РїРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ DepartmentID, [Name] Рё GroupName. РџРѕРєР°Р·Р°С‚СЊ С‚РѕР»СЊРєРѕ Р·РЅР°С‡РµРЅРёСЏ РїРѕР»СЏ GroupName 
+--РёР· СЃРїРёСЃРєР° ('Manufacturing','Quality Assurance','Research and Development'). РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РѕРїРµСЂР°С‚РѕСЂ IN.
 SELECT DepartmentID, [Name], GroupName
 FROM HumanResources.Department
 WHERE GroupName IN ('Manufacturing','Quality Assurance','Research and Development');

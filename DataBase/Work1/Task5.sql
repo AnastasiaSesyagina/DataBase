@@ -1,5 +1,5 @@
---Показать ID товаров (ProductID), имена и адреса электронных почт покупателей (ReviewerName и EmailAddress) 
---и комментарии (Comments) из таблицы Production.ProductReview, где имя покупателя начинается на 'J'.
+--РџРѕРєР°Р·Р°С‚СЊ ID С‚РѕРІР°СЂРѕРІ (ProductID), РёРјРµРЅР° Рё Р°РґСЂРµСЃР° СЌР»РµРєС‚СЂРѕРЅРЅС‹С… РїРѕС‡С‚ РїРѕРєСѓРїР°С‚РµР»РµР№ (ReviewerName Рё EmailAddress) 
+--Рё РєРѕРјРјРµРЅС‚Р°СЂРёРё (Comments) РёР· С‚Р°Р±Р»РёС†С‹ Production.ProductReview, РіРґРµ РёРјСЏ РїРѕРєСѓРїР°С‚РµР»СЏ РЅР°С‡РёРЅР°РµС‚СЃСЏ РЅР° 'J'.
 SELECT ProductID, ReviewerName, EmailAddress, Comments
 FROM Production.ProductReview
 WHERE ReviewerName LIKE 'J%';
