@@ -1,0 +1,20 @@
+﻿USE FoodDelivery2;
+
+CREATE TABLE Product
+(
+	 ID UNIQUEIDENTIFIER DEFAULT NEWID()
+	  CONSTRAINT PK_Product PRIMARY KEY
+	, MenuName VARCHAR(50) NOT NULL
+	, Price MONEY NOT NULL
+);
+
+ALTER TABLE Product
+ADD CONSTRAINT u_MenuName UNIQUE(MenuName);
+
+ALTER TABLE Product
+ADD CONSTRAINT ch_EmptyMenuName
+CHECK (LEN(MenuName) > 1);
+
+ALTER TABLE Product
+ADD CONSTRAINT ch_EmptyPrice
+CHECK (Price > 0);

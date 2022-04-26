@@ -1,0 +1,13 @@
+﻿CREATE FUNCTION dbo.fPersonID
+(
+	@PersonName NVARCHAR(50)
+)
+RETURNS UNIQUEIDENTIFIER
+AS
+BEGIN
+	DECLARE @ID_Person UNIQUEIDENTIFIER = 
+			(SELECT TOP 1 ID
+			FROM Person
+			WHERE FullName = @PersonName);
+	RETURN @ID_Person
+END;

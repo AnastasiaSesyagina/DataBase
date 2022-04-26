@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FoodDelivery2.0", "FoodDelivery2.0\FoodDelivery2.0.ssmssqlproj", "{CF98B379-7013-4CE4-8FA8-271BB230541F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CONSTRAINTS", "CONSTRAINTS\CONSTRAINTS.ssmssqlproj", "{C0C8921D-08D3-41F3-885C-F6808B9D6606}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PROC", "PROC\PROC.ssmssqlproj", "{1B1CCB64-A03D-4629-AC21-4879A17D7DFF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FUNCTIONS", "FUNCTIONS\FUNCTIONS.ssmssqlproj", "{EAFC8AF6-4341-441D-83C0-825C2466DC74}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "VIEWS", "VIEWS\VIEWS.ssmssqlproj", "{F20A333A-4C58-4DB6-9756-3AC8C81C51CB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TRIGGERS", "TRIGGERS\TRIGGERS.ssmssqlproj", "{05A50619-AD04-4DB2-9324-A6719B62985E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF98B379-7013-4CE4-8FA8-271BB230541F}.Default|Default.ActiveCfg = Default
+		{C0C8921D-08D3-41F3-885C-F6808B9D6606}.Default|Default.ActiveCfg = Default
+		{1B1CCB64-A03D-4629-AC21-4879A17D7DFF}.Default|Default.ActiveCfg = Default
+		{767CF4EB-9BBB-44DA-8987-D968F62E1BB3}.Default|Default.ActiveCfg = Default
+		{EAFC8AF6-4341-441D-83C0-825C2466DC74}.Default|Default.ActiveCfg = Default
+		{F20A333A-4C58-4DB6-9756-3AC8C81C51CB}.Default|Default.ActiveCfg = Default
+		{05A50619-AD04-4DB2-9324-A6719B62985E}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48E9A077-6FCB-4416-A405-D27F88AF180B}
+	EndGlobalSection
+EndGlobal

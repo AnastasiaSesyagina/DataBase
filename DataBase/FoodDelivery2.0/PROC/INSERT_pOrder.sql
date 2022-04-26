@@ -1,0 +1,10 @@
+﻿EXEC dbo.pOrderInsert @Person_CustomerPN = '89201473971', @Person_CourierPN = '89852133194', @Address = 'ул. Бориса Галушкина, д. 18, кв. 34', @GetTime = '08:43:54', @DeliveryTime = '09:23:32'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89104445501', @Person_CourierPN = '89627181595', @Address = 'ул. Сущевская, д. 29, кв. 73', @GetTime = '09:01:15', @DeliveryTime = '09:56:43'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89626991262', @Person_CourierPN = '89852133194', @Address = 'ул. Космонавтов, д. 14, кв. 62', @GetTime = '10:35:24', @DeliveryTime = '11:16:46'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89261703708', @Person_CourierPN = '89627181595', @Address = 'ул. Палиха, д. 9, кв. 46', @GetTime = '10:53:23', @DeliveryTime = '11:28:41'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89201356864', @Person_CourierPN = '89162218129', @Address = 'ул. Верхняя Красносельская, д. 11а, кв. 110', @GetTime = '11:14:53', @DeliveryTime = '11:53:36'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89164796307', @Person_CourierPN = '89852133194', @Address = 'ул. Ярославская, д. 10 к1, кв. 12', @GetTime = '12:21:42', @DeliveryTime = '13:02:45'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89265656522', @Person_CourierPN = '89627181595', @Address = 'ул. Тихвинская, д. 4, кв. 191', @GetTime = '12:46:31', @DeliveryTime = '13:30:54'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89201630213', @Person_CourierPN = '89162218129', @Address = 'ул. Верхняя Красносельская, д. 10, кв. 55', @GetTime = '14:56:43', @DeliveryTime = '15:40:32'
+EXEC dbo.pOrderInsert @Person_CustomerPN = '89855885559', @Person_CourierPN = '89162218129', @Address = 'ул. Лобачика, д. 11', @GetTime = '16:08:03', @DeliveryTime = '16:56:42'
+

@@ -1,0 +1,14 @@
+﻿CREATE FUNCTION dbo.fOrderID
+(
+	@Address NVARCHAR(50)
+	,@GetTime TIME
+)
+RETURNS UNIQUEIDENTIFIER
+AS
+BEGIN
+	DECLARE @ID_Order UNIQUEIDENTIFIER = 
+			(SELECT TOP 1 ID
+			FROM [Order]
+			WHERE [Address] = @Address AND GetTime = @GetTime);
+	RETURN @ID_Order
+END;
