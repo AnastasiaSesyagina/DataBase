@@ -1,0 +1,26 @@
+﻿USE FoodDelivery2;
+
+CREATE TABLE Person
+(
+	 ID UNIQUEIDENTIFIER DEFAULT NEWID()
+	  CONSTRAINT PK_Person PRIMARY KEY
+	, FullName VARCHAR(50) NOT NULL,
+	PhoneNumber VARCHAR(50) NOT NULL
+);
+
+ALTER TABLE Person
+ADD CONSTRAINT u_PhoneNumber UNIQUE(PhoneNumber);
+
+ALTER TABLE Person
+ADD CONSTRAINT ch_PhoneNumber
+CHECK (LEN(PhoneNumber) > 1);
+
+ALTER TABLE Person
+ADD CONSTRAINT ch_EmptyFullName
+CHECK (LEN(FullName) > 1);
+
+--ALTER TABLE Person
+--DROP CONSTRAINT ch_EmptyFullName;
+
+SELECT *
+FROM Person;
